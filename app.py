@@ -26,6 +26,7 @@ import networkx as nx
 import nltk
 from groq import Groq
 
+import spacy
 from spacy.cli import download
 import os
 
