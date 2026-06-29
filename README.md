@@ -1,11 +1,11 @@
-# 🧬 NexaLex AI — Advanced NLP Studio
+# 🧬 HelixAI — Advanced NLP Studio
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://python.org)
 [![Groq](https://img.shields.io/badge/AI-Groq%20LLaMA--3.3--70B-orange)](https://groq.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> **NexaLex AI** is a full-featured, production-ready NLP web application built with Streamlit.  
+> **HelixAI** is a full-featured, production-ready NLP web application built with Streamlit.  
 > It combines 10 powerful modules — from text cleaning and translation to AI summarisation and batch processing — all powered by **Groq LLaMA-3.3-70B** under the hood.
 
 ---
