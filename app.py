@@ -1,7 +1,7 @@
 """
-🧬 NexaLex AI — Advanced NLP Studio
+🧬 HelixAI — Advanced NLP Studio
 =====================================
-Author  : NexaLex Team
+Author  : Tanveer
 Version : 2.0.0 (Streamlit Cloud Edition)
 Backend : Groq LLaMA-3.3-70B-Versatile
 Stack   : Streamlit · spaCy · NLTK · TextBlob · Plotly · WordCloud
