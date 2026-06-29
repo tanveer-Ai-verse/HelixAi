@@ -27,15 +27,27 @@ import nltk
 from groq import Groq
 
 import spacy
+import os
+import sys
 from spacy.cli import download
 
-# Automatic spaCy model downloader
+# Define a directory in your project folder where you have permission to write
+model_dir = os.path.join(os.getcwd(), "spacy_models")
+if not os.path.exists(model_dir):
+    os.makedirs(model_dir)
+
+# Add this directory to the system path so spaCy can find it
+sys.path.append(model_dir)
+
 try:
+    # Try loading from the local directory
     nlp = spacy.load("en_core_web_sm")
 except OSError:
-    download("en_core_web_sm")
+    print("Downloading spaCy model to local directory...")
+    # Install the model specifically into your local folder
+    download("en_core_web_sm", target=model_dir)
     nlp = spacy.load("en_core_web_sm")
-    
+
 
 # ─── Page Config ───────────────────────────────────────────────────────────────
 st.set_page_config(
