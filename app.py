@@ -26,6 +26,17 @@ import networkx as nx
 import nltk
 from groq import Groq
 
+from spacy.cli import download
+import os
+
+# Force model load/download
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
+
+
 # ─── Page Config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="NexaLex AI | Advanced NLP Studio",
