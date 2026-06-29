@@ -9,6 +9,8 @@
 > It combines 10 powerful modules — from text cleaning and translation to AI summarisation and batch processing — all powered by **Groq LLaMA-3.3-70B** under the hood.
 
 ---
+# ▶️ App Demo Link of the project (HelixAi)
+https://helixai-atqi3jdfdkfskb8zufbkkt.streamlit.app/
 
 ## 🚀 Features
 
